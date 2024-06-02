@@ -1,0 +1,66 @@
+body
+{
+    background-color: #24353F;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.box
+{
+    width: 65%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.title
+{
+    color: #17A2B8;
+}
+.inputs input
+{
+    background-color: transparent ;
+    color: white !important;
+}
+.inputs input::placeholder
+{
+    color: #b6b6b6;
+}
+.inputs input:focus
+{
+    background-color: transparent;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    box-shadow: 0 0 0 0 transparent ;
+}
+.btn-login button
+{
+    color: #17a2b8;
+    background-color: transparent;
+    border: 1px solid #17A2B8;
+}
+.btn-login button:hover
+{
+    color: white;
+    background-color: #17A2B8;
+}
+.link a
+{
+    text-decoration: none;
+}
+.link a:hover
+{
+    text-decoration: underline;
+}
+
+.navbar
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+.title-home
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 50px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: -50px;
+}
+.title-home h2
+{
+    color: #17a2b8;
+}
